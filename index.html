@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="register-form">
+        <form action="#">
+            <h2>REGISTER NOW</h2>
+            <div class="input-style">
+                <label for="a">First Name</label>
+                <input type="text" placeholder="First Name" id="a">
+
+                <label for="b">Last Name</label>
+                <input type="text" placeholder="Last Name" id="b">
+
+                <label for="c">Your E-mail</label>
+                <input type="email" placeholder="Your E-mail" id="c" required>
+
+                <label for="d">Phone Number</label>
+                <input type="number" maxlength="11" placeholder="Phone Number" id="d" required>
+
+                <label for="e">Password</label>
+                <input type="password" placeholder="Password" id="b" required>
+
+                <label for="f">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" id="f" required>
+            </div>
+            <div class="gender">
+                <p>Gender</p>
+                <div class="option">
+                    <input type="radio" name="as" id="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="as" id="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="as" id="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <input class="reg-now" type="submit" value="Register">
+            <input class="reg-now" type="reset">
+        </form>
+    </div>
+</body>
+
+</html>
